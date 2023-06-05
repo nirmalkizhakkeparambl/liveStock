@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".feed_buffllo">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Livestock :: Buffalo :: Feeding"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="16dp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="16dp" />
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <TextView
+            android:id="@+id/textHeading1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FEEDING"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="12dp" />
+            <TextView
+                android:id="@+id/textParagraph1"
+                android:layout_width="match_parent"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:text="Buffaloes are, like cattle, ruminants. This means that they utilize micro-organisms in the rumen to digest the feed. The feed eaten by ruminants are mainly of vegetable origin. The ruminant is an expert in converting cellulose and other fibrous materials into high quality milk and meat. Their digestive capacity is greater than the non-ruminant. Ruminants” chew the cud' e.g. regurgitate the food to the mouth and chew it several times, thus helping the breakdown.
+
+            The feed will enter the rumen compartment when swallowed by the animal. The rumen is an anaerobe environment, e.g. no oxygen is present. The feed is exposed to microbes such as bacteria, protozoa and fungi. These microbes attack the feed particles and by enzymatic action the components are broken down and used for their own metabolism, growth and propagation. The feed is masticated, regurgitated and exposed to microbes in the rumen. Large particles will become smaller and eventually be transported to the reticulum and further on. How long time a specific feed particle will stay in the rumen depends on size, palatability and fiber content of the feed. The buffalo has slower rumen movement than cattle, which leads to a slower rate of ingest outflow. The pH of the rumen content is similar to that of cattle, and it is affected in the same manner. Normal pH is between 6 and 7 depending on feed and time of feeding.
+
+            The components of the feed can be divided into protein, energy (carbohydrates), fat, minerals and water. The breakdown and utilization of the different feed components are reviewed below.The waste end products of the microbial attack are methane and carbon dioxide which are eructated. Volatile fatty acids (VFA) of which acetic, prop ionic and butyric acids are the predominant ones, are together with ammonia absorbed by the animal through the rumen wall, and transported via the blood to, e.g. the liver and udder where they serve as building material for chemical compounds such as glucose, protein and fat (see Figure 10). Ammonia can be utilized directly by the rumen microbes to synthesize proteins. To be correct, one is actually not feeding the buffalo, but its’ microbes. Ruminants are entirely dependent on the function of the rumen microbes. Therefore, it is important to keep the rumen environment healthy. The easiest and best way is to feed a high amount of good quality roughage and a smaller amount of good quality concentrate."/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Protein"
+                android:gravity="center"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:text="Almost all protein is attacked by the microbes and utilized in their metabolism and incorporated in the microbial mass. Microbial protein is of high quality and is absorbed as amino acids after being digested by gastric enzymes in the abomasums.
+
+Ammonia which is absorbed by the rumen wall and transported by the blood to the liver, is converted to urea. In case of protein deficiency, urea can be utilized by the rumen microbes as a non-protein nitrogen source to build protein. In this way nitrogen is circulated and efficiently used by the animal.
+
+Protein can be protected to withstand microbial attack. It is then called”by-pass protein”. By-pass protein is only degraded in the abomasums and small intestine where it undergoes enzymatic attack similar to that of mono-gastric animals. By-pass-protein is commercially available in some ready made concentrates and is usually given to high producers."/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Carbohydrate"
+                android:gravity="center"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:text="Carbohydrates are the predominant sources of energy for ruminants. Carbohydrates, or sugars, are the components of starch and fibers. Fiber is a common name for cell-wall components such as cellulose, hemi-cellulose and lignin. Starch can be degraded by animal gastric enzymes, whereas fibers cannot. Ruminants can utilize fibers to a larger extent than mono-gastric animals because of the ruminal microbes. However, lignin (wood-fiber) is not utilized. It is generally believed that buffaloes utilize fiber more efficiently than cattle do. The coefficient of digestion is 5-8% higher in buffaloes than in cattle."/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fat"
+                android:gravity="center"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:text="Fat is not as such required in other than very small amounts for the ruminant. However, what ever fat is present in the feed undergoes microbial attack and degradation. Unsaturated fatty acids are hydrolyzed and thus saturated. This is one of the reasons for the milk and body fat of the ruminant to be of equal composition, largely independent of the type of feed given. If the fat can in some form be protected from ruminal degradation, and instead be utilized in the lower intestinal tract, it may be used as an additional energy source. However, it may then alter the milk fat composition unfavorably. Too much unprotected fat in the diet depresses the ability of the microbes to ferment fibers, thus influencing the energy utilization negatively."/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+            <TextView
+                android:id="@+id/textHeadings2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Energy"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:text="Sources of energy are predominantly carbohydrates like fiber and starch and fat to a lesser extent. For buffaloes, fiber in the form of roughage is the most important and cheapest energy source. When calculating feed ratios for buffaloes the term Metabolizable Energy (ME) is used. This means the amount of energy that can be used by the animal for maintenance, growth, lactation etc. The gross energy (GE) of the feed is the amount present in the feed, when entering the animal, much of the energy is converted into heat which is lost through the thermal regulation. Energy is also lost in the feces and urine as well as in the methane and carbon dioxide gases.
+
+Energy is measured in calories (cal) and joules (J) (1 cal equals 4.18 J). The most common is to use the term Mega calories (M cal) or Mega joules (MJ) which means a million cal or J. Another measurement is Total Digestible Nutrients (TDN) which is the sum of carbohydrates and fat in the diet. The unit for TDN is kg or gram.The energy ratio in the feed may be increased by adding fat in protected form, thus transferring the digestion from rumen to the intestinal tract. Feeding of protected fat (1 kg safflower oil) has proven to increase nutrient utilization. Feeding of unprotected fat in similar amounts has shown to adversely affect nutrient utilization."/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Protein"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:text="Protein is required for growth, tissue repair and milk production among other things. Good sources of protein are leguminous forage, grain and oil-seed-cakes.
+The protein requirements are measured in Crude protein (CP) in kg or gram."/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Minerals and vitamins"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:paddingLeft="14dp"
+                android:layout_height="wrap_content"
+                android:text="&#8226;Minerals are essential for many body functions. The macro-minerals calcium and phosphorus are especially important in milk production. They are also vital for the skeleton and the function of nerve-impulses. Phosphorus is the mineral included in the body’s energy metabolism, ATP. When considering the Ca and P requirements for the animal it is equally important to consider the ratio in which it is given. The Ca ration should be 2:1 since there exists and antagonist relationship between the two minerals concerning uptake from the small intestine."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:paddingLeft="14dp"
+                android:layout_height="wrap_content"
+                android:text="&#8226;Salt, e.g. sodium and potassium together with chloride are the more important micro-minerals. Minerals are present in various amounts in feed and water."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:paddingLeft="14dp"
+                android:layout_height="wrap_content"
+                android:text="&#8226;Vitamins are essential for total body function. Most vitamins are synthesized by the animal or it's rumen microbes. Such vitamins, B, C and K (and to some extent D) does not need to be fed. Vitamin B is synthesized by ruminal microbes, vitamin K by intestinal microbes and vitamin C in the tissues. Vitamin D is formed when the precursor, found on the skin on animals and on grass, is exposed to UV-rays, in tropical countries deficiency of vitamin D is rare. Vitamins A and E are not synthesized in the animal but must be supplied. Vitamin A is found in silage, fresh grass, dark green leaves, peas and carrots. Cereals are a source of vitamin E."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:paddingLeft="14dp"
+                android:layout_height="wrap_content"
+                android:text="&#8226;Mineral and/or vitamin mixture should always be supplied in order to fully meet the requirements. Animals which do not receive a ready made concentrate mixture with mineral and vitamin supplement, must be fed supplement in the form of ”lick stones” of which the animals have free access to or as ”powder” fed once or twice a day individually. Vitamins may be included in the mineral feed, but vitamins are more sensitive and may be destroyed if kept in sunlight. Care must therefore be taken to store vitamin supplements correctly."/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Water"
+                android:gravity="center"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:text="Water is essential for most body functions, such as body temperature control, milk production and maintaining blood plasma volume. Thermal regulation of the animal is the most water consuming process. The animal receives water in three different ways"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:paddingLeft="14dp"
+                android:layout_height="wrap_content"
+                android:text="&#8226;Drinking water"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:paddingLeft="14dp"
+                android:layout_height="wrap_content"
+                android:text="&#8226;Water in feed"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:paddingLeft="14dp"
+                android:layout_height="wrap_content"
+                android:text="&#8226;Metabolic water = water made from feed degradation"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:text="Drinking water is the most important water source and should be of good hygienic quality. The water available in feed is highly dependent on the dry matter in feed. Straw, hay and cereals include little water, whereas silage and fresh grass may contain as much as 70 percent.
+The water requirements of the buffalo depend on;"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:paddingLeft="14dp"
+                android:layout_height="wrap_content"
+                android:text="&#8226;The diet (dry matter)"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:paddingLeft="14dp"
+                android:layout_height="wrap_content"
+                android:text="&#8226;The environment (humidity, temperature)"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:paddingLeft="14dp"
+                android:layout_height="wrap_content"
+                android:text="&#8226;Physiological function (growth, pregnancy, lactation etc.)"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:text="Generally, buffaloes require more water than cattle under the same circumstances and should have access to clean cool water and libitum. A restricted water intake leads to a decrease in dry matter intake and thus affects milk production and growth negatively.
+
+Salinity of water is seldom a problem in dairy buffalo feeding. A salt content of up to 5 g/liter of water can be used for buffaloes. However, temporary diarrhea may be caused by water approaching the higher levels."/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Feedstuff"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:text="The main diet for the buffalo is roughage such as grass, legumes and straw. The roughage can be fed either fresh as pasture or in a cut-and-carry-system or conserved as hay or silage. The roughage is often complemented with grains, concentrate and agro-industrial by-products such as oil-seed cakes, sugar cane tops etc.
+
+The roughage should form the base of the feed ration and contribute to meet (at least) the total maintenance requirements. Grains and concentrate should be fed only to meet additional requirements such as growth, pregnancy and milk production. Too much non-fibrous feed will alter the rumen environment. In the long run this could lead to serious problems in feed digestion causing loss of appetite, weight loss and a drop in milk yield. This is especially important for animals under stress, such as high growth rate and high milk yield. The roughage should be of good quality, both nutritional and hygienic quality, this cannot be emphasized enough."/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Types of roughage"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:text="The most common roughage is grass of a number of species. Lucerne, berseem and clover are herbaceous legumes and have an advantage over grass as they are nitrogen fixing. This means that the plants will (with the help of bacteria) fix air-nitrogen and thus they are less dependent on the nitrogen content of the soil. These plants contain more protein than grass under the same circumstances. Lucerne (or Alfalfa) has several advantages. It contains an elevated amount of calcium, vitamin E and carotene which are of major importance for milk production.
+
+There are also tree legumes which can be used as high quality feed, e.g. Leucaena leucocephala, Gliricida spp., Sesbania and others. As many of the tree legumes contain anti-nutritional compounds which may depress digestibility as well as decrease feed intake, they should not be fed as the sole source of roughage. A maximum ratio of 50% tree legumes in the total diet can be considered as a safe level. Since buffaloes are strict grazers, the trees should be pruned and the branches or leaves given to the buffaloes. Pruning with regular interval of 6 to 10 weeks increases re-growth of the leaves.
+
+Roughage of lesser quality are straws. Straw from rice, barley, wheat, sorghum etc. are widely used in feeding ruminants. Their protein content is zero and their energy content low because of their largely lignified cell-walls. Rice or paddy straw has a high silica content in the cell walls which makes it difficult to digest."/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Harvesting roughage"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:text="In the beginning of the growth season, the protein and sugar (energy) content of the grass is high and the lignin content low. Thus, the grass is of high quality. With maturity the protein and sugar content decreases and the cell walls become lignified. The growth pattern is the same for legumes although it is a little slower. It is therefore important to harvest the roughage in the optimal period and to conserve it for use under dry seasons.
+
+ Pastures should not be over or under grazed. Over grazing leads to insufficient forage in the later season and the soil will be more vulnerable to erosion and permanent damage. In the case of under grazing, the pasture is not utilized efficiently. The grass will grow quicker than the animals can eat. Thus the nutrient composition will change unfavorably to high lignin and low protein content.
+In many areas, grass is not harvested even if not grazed and is left as 'standing hay'. However, the standing hay has a very low nutritive quality, close to that of straw."/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Treatment of roughage"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:text="Chaffing, grinding and pelleting are ways to improve nutritive quality of straws to some extent by making the nutrients available to the rumen microbes. Chemical treatment with alkali or ammonia is effective ways of improving quality. Ammonia treated, chaffed straw may even substitute green forage for low milk producing buffaloes to some extent. Ensiling Lucerne reduces vitamin E and carotene content."/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Concentrate"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:text="The term concentrate means that a high amount of nutrients are concentrated in a small amount of dry feed. The most typical concentrates for tropical countries are oilseed cakes of different types. Oilseed cakes are the common name for products that are derived of the oil for human use and the remainder is pressed together to form a cake. The cakes have relatively high energy content but are mostly used because of their very high protein content.
+
+ Other types of feed which can be classified as concentrate are molasses and urea. Urea can be used by the microbes as a source of nitrogen. The use of urea also requires an easily fermented energy source for the micro-organisms e.g. molasses. The micro-organisms must always have a good balance between protein and energy in the rumen to be able to do their qualified job. There are a number of ready made concentrates on the market manufactured by various companies. Care should be taken to ensure that the quality of the concentrate is up to standard."/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Grain"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:text="Barley, wheat, oat, rye, maize and sorghum grains are excellent feed for ruminants, given in balanced amounts. However, since they are used for human consumption their use as animal feed is limited."/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Voluntary intake"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:text="The definition of voluntary intake is the amount of feed an animal can eat per day. It is commonly expressed in kg of dry matter or in percent of live weight. After having considered the nutrient requirements of the animal and the feed stuff to be used the proper feeding regime can be calculated. However, one must take into consideration how much the animal can eat.
+
+A high producing lactating cow can eat more than a low producing. Similarly a growing heifer may eat more than a dry cow. As pointed out before, feed intake decreases with high environmental temperature and humidity. Individual feeding usually results in higher feed intake due to less competition for feed and a more relaxed atmosphere.
+
+A rough estimation of voluntary intake for a buffalo heifer is 2.2 to 2.5% of its’ live weight per day, if provided with a small portion of straw, a large portion of green feed and some concentrate. A milk producing buffalo should be able to consume good quality feed up to 3% of its’ live weight. A too high ratio of straw in the diet reduces voluntary intake. A protein content of less than 6% also reduces intake of that feed."/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Practical feeding of the lactating buffalo"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:text="Lactating buffaloes should be given the best feed the farm can offer. Producing milk is one of the most energy demanding biological processes. Weight loss is common in high producing animals during the first month of lactation because they cannot consume a sufficient amount of energy. A popular term is that the animals are milking off the fat. It is therefore important that the buffalo is in good health status at partus. In Table 6, examples of various feeding regimes for lactating buffaloes are given. A well balanced ratio of protein, energy, vitamins and minerals in a palatable and tasty feed is the best way of increasing milk production and live weight, as well as improving health and fertility.
+
+Traditional feeding patterns for buffaloes all over the world is subjected to forages and crop production of the season which affects the level of milk production. Forage is insufficient during the dry season and abundant during the rainy season. Shortages are overcome by conserving forages as hay or silage."/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Formulating feed ratios for the milk producing buffalo"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:text="Formulating feed ratios for milk producing buffaloes starts with theoretical calculating of the requirements. As there are no standardized international tables for dairy buffaloes’ requirements, the calculations here are based on NCR’s tables for dairy cattle (see Table 3). It is important to know the buffaloes live weight, this is most accurately done by weighing the animals three times in a week and calculating the average. However, this requires an animal scale and is further very time consuming. Weighing the animals once is good as guidance. Once the weight is known, the requirements for maintenance are extracted from Table 1. The milk yield should be known as well as the fat percentage. Recommendations are at least 3 days of milk recording to calculate the average yield and fat percentage. For simplicity, the yield is then calculated to 4% fat corrected milk (shown in Table 1). The total requirement is gained by summing requirements for maintenance and for milk production."/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Table 1. Nutrient requirements for milk producing buffaloes"
+               android:paddingLeft="12dp"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="119dp"
+                android:gravity="center"
+                android:src="@drawable/colustrumfeeding" />
+            <TextView
+                android:layout_width="match_parent"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:text="If the animal seems to be too fat at the time of weighing, the maintenance requirements may be reduced by 10 %. Similarly, if the animal is too skinny, 10% may be added to the maintenance requirements.
+
+The feeding regime of the buffaloes can then be decided. Primarily, crops grown on the farm should be included in the diet. For the optimal economic feeding regimes the feed should be analyzed at a laboratory for dry matter content, energy and crude protein and for calcium and phosphorus."/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Table 1. Nutrient requirements for milk producing buffaloes"
+                android:paddingLeft="12dp"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="119dp"
+                android:gravity="center"
+                android:src="@drawable/bufftbl1" />
+            <TextView
+                android:layout_width="match_parent"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:text="If the animal seems to be too fat at the time of weighing, the maintenance requirements may be reduced by 10 %. Similarly, if the animal is too skinny, 10% may be added to the maintenance requirements.
+
+The feeding regime of the buffaloes can then be decided. Primarily, crops grown on the farm should be included in the diet. For the optimal economic feeding regimes the feed should be analyzed at a laboratory for dry matter content, energy and crude protein and for calcium and phosphorus."/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Table 1. Nutrient requirements for milk producing buffaloes"
+                android:paddingLeft="12dp"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="119dp"
+                android:gravity="center"
+                android:src="@drawable/befftbl2" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Practical feeding of the calf"
+                android:paddingLeft="12dp"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="119dp"
+                android:gravity="center"
+                android:src="@drawable/bufffeed" />
+            <TextView
+                android:layout_width="match_parent"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:text="  Calf mortality is very high, in India it is often 30-40% before 3 months of age, and in Italy the figures may be higher. This is caused by malpractice such as negligence, limited milk feeding, injuries and diseases. By increasing the amount of feed to the calf’s requirements and by practicing the following instructions the mortality can be decreased.
+
+ Colostrum is the most important and most suitable feed for the newborn calf. It contains all the nutrients needed (see Table 3) along with the vital antibodies. It is crucial for the survival of the calf that it receives colostrums during the first 12 hours of its life, the earlier the better. The calves should be given colostrums as long as the mother provides it e.g. 3 to 4 days. Any surplus colostrum can be frozen and then thawed and carefully heated to 390C. If no freezing facilities are available colostrums can stay fresh for a couple of days if it is cooled in a hygienic container. Colostrum can be fermented with living lactic acid culture. Fermented colostrums can be kept for at least a week and up to two weeks if cooling facilities are available.
+
+If the calf is not allowed to suckle its mother it should be provided with colostrums as soon as possible after birth. If it is not possible to feed the calf directly after milking the buffalo, colostrums should be cooled in order to maintain hygienic quality. When it is time to feed the calf, the milk should be carefully heated to no more than 390C. Colostrums must never be boiled. By boiling the milk the antibodies are destroyed and hence, cannot be utilized as such by the calf.
+
+ The natural eating behavior of the calf is to suckle its mother often and to consume a small amount of milk at each suckling period. It is best for the calves reared under artificial conditions if their eating behavior is as”natural” as possible. Colostrum should be fed to the calf at least twice daily with equal intervals.
+
+The calf should be trained to drink from a bucket. The easiest way to do this is to dip clean fingers into the milk and then allow the calf to lick and suck the fingers. The hand is then gradually drawn into the milk in the bucket while the calf is still suckling. Once the calf has learnt to drink it is easy to feed. The calf may need assistance for 5 days. There are special nipples which can be put in the bucket. The calf will suckle these, hence it will need less assistance from the trainer."/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Table 3: Feeding of the calf"
+                android:paddingLeft="12dp"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="119dp"
+                android:gravity="center"
+                android:src="@drawable/bufftbl3" />
+            <TextView
+                android:layout_width="match_parent"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:text="After the colostrums period, whole milk should be provided to the calf until 15 days of age @ a level of 1/8th to 1/10th of the calf’s body weight. (see Table 3). Milk replacer can be fed along with the whole milk provided that it has a certain composition of nutrients. It is not advisable to completely substitute whole milk with milk replacer. Milk and/or replacer should be offered to the calf on at least two occasions per day. The milk and/or replacer should be served at body temperature (38-39OC).
+
+ At two weeks of age, the calf should be introduced to good quality green feed and concentrates, as a calf starter (Table 3). This stimulates the rumen to grow and function properly. By following the feeding schedule in Table 8 a daily gain of 0.35 kg can be expected in Murrah calves."/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Feeding schedules for calves"
+                android:paddingLeft="12dp"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="119dp"
+                android:gravity="center"
+                android:src="@drawable/bufftbl4" />
+            <TextView
+                android:layout_width="match_parent"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:text="  *first 3 to 4 days, feed colostrum.
+**ensure a smooth and gradual change to milk replacer
+An alternative method is to rear calves with foster mothers. In Italy, 40% of the buffalo calves are reared by suckling an old and less productive buffalo or even a cow. This has several advantages, e.g. little labor is required concerning feeding of the calf and the calf will secure it’s nutrient intake itself."/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Calf starter mixture"
+                android:paddingLeft="12dp"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="119dp"
+                android:gravity="center"
+                android:src="@drawable/bufftbl5" />
+            <TextView
+                android:layout_width="match_parent"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:text="Buffalo calves fed with Stover’s of maize, bajra and oat cannot meet their nutrient requirements and are often in negative energy and protein balance. However, feeding the calves with treated Stover’s with a urea-molasses-salt complex both enhances the palatability of the Stover’s as well as the digestibility and nutrient value. Buffalo male calves weighing 150-200 kg has proven to increase the intake of treated Stover’s verses untreated ones and thereby increasing weight gain, nitrogen balance and health"/>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Practical feeding of the heifer"
+                android:paddingLeft="12dp"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:text="The heifer is the future milk producer and she has to be given a fair chance to produce well. She must have an average daily gain of at least 500 grams per day in order to reach the optimum size for calving within reasonable time (500 kg at 32 to 40 months). Unfortunately, many farmers consider heifers to be unproductive and hence they are not properly fed. Lack of feed is often a reality; it is therefore not possible to feed all animals in the herd with high quality feed. The following advice could be considered as a rule of thumb, bearing in mind that the quantity and quality of feed varies with the season. Furthermore, the condition and growth rate of the heifer should be checked regularly to see that she has the approximate growth rate and if not, adjust her feeding schedule accordingly.
+
+The heifers should be fed green feed of the season of about 4-7 kg DM together with some straw and concentrate or grain per day. If the green feed is leguminous the ration of green feed and concentrate or grain can be reduced and the amount of straw increased. However, it is positive to feed the heifers a small amount of grain or concentrate (not less than 0.5 kg per day) for making both them and their rumen accustomed to this type of feed, especially partus.
+
+If available, ammonia treated straw could be given along with low quality green feed and concentrate. Silage could be given to heifers, but it is often a very valuable feed saved for milk producing animals. However, a few months before part us the heifer should slowly be introduced to the feed she will have as a milk producing buffalo.
+
+Maximum voluntary intake of the heifer is obtained @ approximately 1 to 1.5 kg dry matter of straw together with 3 kg (DM) of green feed and 1 kg concentrate. Straw fed to appetite is not enough to keep or increase body weight of growing buffaloes. Straw fed to growing stock should preferably be ammoniated and further supplemented with green feed or hay and some kind of concentrate to give the best result"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Practical feeding of the dry buffalo"
+                android:paddingLeft="12dp"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:text="Feeding the dry buffalo concern is preparing for partum and a high milk production. In the last two months of gestation the buffalo has increased requirements for nutrients for fetal growth. Experiments with Murrah buffaloes has shown that the best economical way of feeding dry buffaloes 2 months before calving is at 125% of the recommended level for cattle (NRC, 1988). By giving the dry buffalo a little more than she needs her chance to build up the body reserves and to be in good physical condition is improved. After calving the buffalo can be fed at 100% of recommended level for cattle."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="( Source: www.milkproduction.com )"
+                android:paddingLeft="12dp"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Feeding Schedule"
+                android:paddingLeft="12dp"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Feeding Schedule for different breeds of Buffaloes ( Kg )"
+                android:paddingLeft="12dp"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="119dp"
+                android:gravity="center"
+                android:src="@drawable/bufftbl7" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nutrient Requirement"
+                android:paddingLeft="12dp"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nutrient requirement of working bullocks"
+                android:paddingLeft="12dp"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="119dp"
+                android:gravity="center"
+                android:src="@drawable/tablecattle8" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="( Source: www.vuatkerala.org )"
+                android:paddingLeft="12dp"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@android:color/darker_gray" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

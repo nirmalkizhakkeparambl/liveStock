@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FeedindText">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Livestock :: Cattle :: Feed Management"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="16dp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="16dp" />
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <TextView
+            android:id="@+id/textHeading1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FEED MANAGEMENT"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+        <TextView
+            android:id="@+id/textHeadings1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Feeding of Calves Colostrums"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textParagraph1"
+            android:layout_width="match_parent"
+            android:paddingLeft="10dp"
+            android:layout_height="wrap_content"
+            android:text="It will vary with the system followed, but whatever system may be practiced, the calf must receive the first milk which the cow gives after calving and is called colostrums. Be sure to feed the calf enough of colostrums between 2 to 2.5 liters daily for the first 3 days following its birth." />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="119dp"
+                android:gravity="center"
+                android:src="@drawable/colustrumfeeding" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:text="Any excess colostrums may be fed to other calves in the herd in amounts equal to the amount of whole milk normally fed. If possible where a cow is milked before calving, freeze some of the colostrums for later feeding to the calf. None of it should be wasted. The digestibility of colostrums increases when it is given at a temperature between 99oF and 102oF. The importance of colostrums can be felt more from the following virtues." />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:text="The protein of colostrums consists of a much higher proportion of globulin than doe’s normal milk. The globulins are presumed to be the source of antibodies which aid in protecting the animal from many infections liable to affect it after birth. Gamma - globulin level in blood serum of neonatal calves is only 0.97 mg/ml at birth. It increase to 16.55 mg/ml level after first colostrums feeding at 12 hr and subsequently on the second day shows a peak of 28.18 mg/ml. This level more or less persists till the reti-culoendothelial system of the calf starts functioning to produce antibodies." />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:paddingLeft="14dp"
+                android:layout_height="wrap_content"
+                android:text="&#8226; The protein content of colostrums is 3 to 5 times as that of normal milk. It is also rich in some of the materials, of which copper, iron, magnesium and manganese are important." />
+            <TextView
+                android:layout_width="match_parent"
+                android:paddingLeft="14dp"
+                android:layout_height="wrap_content"
+                android:text="&#8226;Colostrums contain 5-15 times the amount of Vitamin A- found in normal milk, depending upon the character of the ration given to the mother during the rest period." />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="14dp"
+                android:text="&#8226;Colostrums is also superior to milk in having a considerably greater amount of several other vitamins which have been found essential in the growth of dairy calves, including riboflavin, choline, thiamine and pantothenic acid." />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="14dp"
+                android:text="&#8226;Colostrums act as a laxative to free the digestive tract of faecal material." />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="16dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="16dp" />
+            <TextView
+                android:id="@+id/textHeadings2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Feeding whole milk"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:text="In feeding whole milk, calves may be fed as per feeding schedule. While feeding whole milk the following points should be remembered."/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="&#8226;As far as possible provide milk from the calf's mother."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="&#8226;Feed milk immediately after it is drawn."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="&#8226;The total amount of milk may be fed at 3 or 4 equal intervals up to the age of 7 days and then twice daily."/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textHeadings4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Feeding skim milk"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="On many farms, large quantities of separated milk are available for feeding to calves and other livestock.  Excellent dairy calves can be raised by changing them from whole milk gradually after two weeks of their age.   Here again the feeding schedule should be followed."/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+            <TextView
+                android:id="@+id/textHeadings5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Feeding dried skim milk, whey or buttermilk"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="The above dried products are mixed with water at the rate of 1 kg to 9 kg of water and then it is fed as skim milk.  To avoid digestive troubles the mix should always be fed to calves after warming it up to 100oF."/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+            <TextView
+                android:id="@+id/textHeadings6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Feeding calf starters"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="Calf starter is a mixture consisting of ground farm grains, protein feeds and minerals, vitamins and antibiotics.  After a calf attains the age of 2 weeks the amount of whole milk given to it may be cut down.  One should then rub a small amount of starter on the calf's mouth, after each milk feeding for a few days when the calf will be accustomed to it.  When they reach four months of age, one should then transfer the calves to a growing grain ration. "/>
+
+
+            <ImageView
+                android:id="@+id/imageVieww"
+                android:layout_width="match_parent"
+                android:layout_height="119dp"
+                android:gravity="center"
+                android:src="@drawable/feeding2" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textHeadings7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Feeding grain mixture"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="Better growth and greater resistance to calf ailments result from consumption of grain and milk by the calf then when the calf is fed only on milk.  At the age of 7-15 days the feeding of grain mixtures may be started.  In order to get calves accustomed to grain mixtures, place a small handful of grain mixture in the used pail.  As the calf is finishing its milk it may consume a portion, or one may offer a little in the hand immediately after feeding milk"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="Excessive protein rich grain mixture is not desirable as milk is already rich in proteins.  A medium protein grain mixture is most suitable when milk is fed freely. A grain mixture of oats - 35 percent, linseed cake - 5 percent, bran - 30 percent, barley - 10 percent, groundnut cake - 20 percent may be fed to the calves.  Another good mixture consists of ground maize - 2 parts, wheat bran - 2parts"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+            <TextView
+                android:id="@+id/textHeadings3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Table 1.  Feeding schedule for calves up to 6 months"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageViewT"
+                android:layout_width="match_parent"
+                android:layout_height="119dp"
+                android:gravity="center"
+                android:src="@drawable/tablecatt1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="Calf starter is a highly nutritious concentrate mixture containing all the nutrients in proper proportion required for optimum growth and is used as a partial substitute for whole milk in the ration of calves. Since quality of protein is very important to calves until their rumen is fully functional, animal protein supplements such as fish meal should be included in calf starters. Urea should not be included in calf starters.
+
+(Source: Kerala Agricultural University"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="16dp" />
+            <TextView
+                android:id="@+id/textHeadings8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Feeding of growing animals (From 6 months onwards)"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="For calves below one year of age it is always desirable to give sufficient concentrates in addition to good roughage so that they make optimum growth. Feeding concentrate can be considerably reduced in the case of calves over one year of age fed on high quality roughage. A judicious mixture of roughage and concentrate is essential for obtaining optimum growth without undue fat deposition. From six months onwards, calves can be given the same type of concentrate mixture (14-16% Digestible Crude Protein and about 70% Total Digestible Nutrients) as used for adult cattle. Examples of concentrate mixtures are given separately."/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+            <TextView
+                android:id="@+id/textHeadings9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Table 2. Feeding schedule of growing animals from 6 months onwards"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:src="@drawable/tablecat2" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="(Source: Kerala Agricultural University)"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+            <TextView
+                android:id="@+id/textHeadings10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Table 3. Recommended concentrate mixtures (Approx. 15% DCP about 70% TDN)"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:src="@drawable/tablecat3" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="119dp"
+                android:gravity="center"
+                android:src="@drawable/feeding4" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="14dp" />
+
+            <TextView
+                android:id="@+id/textHeadings11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="
+Table 4. Feeding schedules for dairy animals (Quantity in kg.)"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:src="@drawable/tablecattle5" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="(Source: National Dairy Development Board)"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="16dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+            <TextView
+                android:id="@+id/textHeadings12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Feeding of lactating cow"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="Proper feeding of dairy cattle should envisage minimum wastage of nutrients and maximum returns in respect of milk produced.
+
+A concentrate mixture made up of protein supplements such as oil cakes, energy sources such as cereal grains (maize, jowar), tapioca chips and laxative feeds such as brans (rice bran, wheat bran, gram husk) is generally used.
+
+Mineral mixture containing major and all the trace elements should be included at a level of 2 percent."/>
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="119dp"
+                android:gravity="center"
+                android:src="@drawable/feedcattle8" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+            <TextView
+                android:id="@+id/textHeadings13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Table 5. Feeding schedule for different classes of adult cows (approximate body weight-250 kg)"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="match_parent"
+                android:layout_height="119dp"
+                android:gravity="center"
+                android:src="@drawable/tablecattle6" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="The total dry matter requirement of cattle is around 2-3 % of their body weight though high yielding animals may eat at a rate more than 3%. Such factors as climate, processing of feeds, palatability etc. influence the dry matter consumption. Good quality grasses (Guinea, Napier etc.) with a minimum of 6 % crude protein on dry matter basis alone can form maintenance ration of a cow of average size. But it is possible to maintain milk production of up to 3-4 kg with grass- legume fodder."/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="14dp" />
+            <TextView
+                android:id="@+id/textHeadings14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Feeding of bulls"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="Male calves to be reared as future breeding bulls, should be fed on a higher plane of nutrition than female calves."/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+            <TextView
+                android:id="@+id/textHeadings15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Table 6. Feeding schedule of bull"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="match_parent"
+                android:layout_height="119dp"
+                android:gravity="center"
+                android:src="@drawable/tablecattle7" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="A bull in service should be given good quality roughage with sufficient concentrates. Too much roughage feeding should be avoided as it makes the bull paunchy and slow in service. A large concentrate allowance may make the bull too much fatty and less virile.
+
+(Source: Kerala Agricultural University)"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+            <TextView
+                android:id="@+id/textHeadings16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Maternity pen or calving boxes"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="In the large farms calving boxes are provided for cows nearing parturition. The cows are transferred into these pens 2-3 weeks before expected date of calving. Each calving pen should be about 3x4m for covered area and another 4x5m for open paddocks. A manger and water trough of proper size should be constructed in each pen. The covered area shall have 1.25m high walls all round. A 1.2 m wide gate opening into the open lot is also provided. The floor shall be of cement or brick on edge with slope towards drain. In large farms the member of calving boxes .required is about 5% of no. of breed able stock in the farm. These pens are located nearer to quarters of the farmer / milking barn to monitor pregnant rows. Adequate lighting should be made.
+
+(Source: Dr. C. Paul Princely Rajkumar, AC and RI, Madurai.)"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <TextView
+                android:id="@+id/textHeadings17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NUTRIENT REQUIREMENT"
+                android:gravity="center"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+            <TextView
+                android:id="@+id/textHeadings18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tips for feeding dairy cattle"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="14dp"
+                android:text="&#8226;Concentrate must be feed individually according to production requirements."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="14dp"
+                android:text="&#8226;Good quality roughage saves concentrates. Approximately 20 kg of grasses (guinea, napier, etc.) or 6-8 kg legume fodder (cowpea, lucerne) can replace 1 kg of concentrate mixture (0.14-0.16 kg of DCP) in terms of protein content."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="14dp"
+                android:text="&#8226;1kg straw can replace 4-5 kg of grass on dry matter basis. In this case the deficiency of protein and other nutrients should be compensated by a suitable concentrate mixture."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="14dp"
+                android:text="&#8226;Regularity in feeding should be followed. Concentrate mixture can be fed at or preferably before milking – half in the morning and the other half in the evening – before the two milkings. Half the roughage ration can be fed in the forenoon after watering and cleaning the animals. The other half is fed in the evening, after milking and watering. High yielding animals may be fed three times a day (both roughage and concentrate). Increasing the frequency of concentrate feeding will help maintain normal rumen motility and optimum milk fat levels."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="14dp"
+                android:text="&#8226;Over-feeding concentrates may result in off feed and indigestion."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="14dp"
+                android:text="&#8226;Abrupt change in the feed should be avoided."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="14dp"
+                android:text="&#8226;Grains should be ground to medium degree of fineness before being fed to cattle."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="14dp"
+                android:text="&#8226;Long and thick-stemmed fodders such as Napier may be chopped and fed."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="14dp"
+                android:text="&#8226;Highly moist and tender grasses may be wilted or mixed with straw before feeding. Legume fodders may be mixed with straw or other grasses to prevent the occurrence of bloat and indigestion."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="14dp"
+                android:text="&#8226;Silage and other feeds, which may impart flavour to milk, may be fed after milking. Concentrate mixture in the form of mash may be moistened with water and fed immediately. Pellets can be fed as such."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="14dp"
+                android:text="&#8226;All feeds must be stored properly in well-ventilated and dry places. Mouldy or otherwise damaged feed should not be fed."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="14dp"
+                android:text="&#8226;For high yielding animals, the optimum concentrate roughage ratio on dry matter basis should be 60:40."/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="14dp" />
+            <TextView
+                android:id="@+id/textHeadings19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Table 7. Nutrients required for maintenance of adult cattle per head per day (Growth rate- 550g per day )"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="match_parent"
+                android:layout_height="119dp"
+                android:gravity="center"
+                android:src="@drawable/tablecattle8" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="Straw can form the roughage in the absence of grasses and in such cases concentrates should be given for maintenance. For lactating cows, 1kg of concentrate mixture (compounded feed) (0.14-0.16 kg DCP and 0.70 kg TDN) may be required for every  2.5 – 3.0 kg of milk over and above the maintenance allowance. After parturition, the cow should be given the same type of feed and the same quantity as before and the concentrate allowance should be only gradually increased to avoid digestive troubles like acidosis, indigestion, etc.
+
+In the case of young cross-bred cows below four years of age to meet the needs for growth, it is desirable to give additional concentrate allowance at the rate of 1kg for animals in first lactation and 0.5kg in the second lactation over and above the maintenance and production needs. Milking animals should always have free access to clean fresh drinking water."/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+            <TextView
+                android:id="@+id/textHeadings20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Table 8. Bureau of Indian Standards specification for mineral mixture for cattle"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="14dp" />
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:src="@drawable/tablecattle9" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="14dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@android:color/darker_gray" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
